@@ -1,0 +1,7 @@
+上傳 GitHub：
+1. 解壓縮 ZIP。
+2. 將解壓後的全部檔案與 assets 資料夾上傳到儲存庫根目錄，勿只上傳 ZIP 或 index.html。
+3. 確認儲存庫根目錄能直接看到 index.html。
+4. 若需網站網址，在儲存庫 Settings → Pages 選 Deploy from a branch，選 main 與 / (root)，儲存後等候部署。
+
+主頁為 index.html；其他 JS、CSS、圖片與講義都是網站所需檔案。
