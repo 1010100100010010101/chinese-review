@@ -2,7 +2,8 @@
 
 繁體中文互動溫習網站，包含第一次及第二次測驗內容。
 
-目前網站：https://chinese-first-test-review.tzumingliu.chatgpt.site
+網站名稱：https://1010100100010010101.github.io/chinese-review/
+Chat-GPT網站：https://chinese-first-test-review.tzumingliu.chatgpt.site
 
 ## 功能
 
