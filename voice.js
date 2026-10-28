@@ -41,8 +41,10 @@ function voiceContext(){
  if(view==='essays'){const e=lesson(),s=e.segments[segmentIndex];return{signature:'essay-'+e.id+'-'+essayTab+'-'+segmentIndex,label:'朗讀這一句',text:s[0],full:e.recite,fullLabel:'連讀背默範圍',explain:s[2]+'。'+s[3]}}
  if(view!=='exam2')return{signature:view};
  if(examSection==='essays'){const e=examLesson(),s=e.segments[examSegment];return{signature:'exam-'+e.id+'-'+examTab+'-'+examSegment,label:'朗讀這一組',text:s[0],full:e.recite,fullLabel:'連讀背默範圍',explain:s[2]+'。'+s[3]}}
- if(examSection==='reading'){if(readingMode==='cards')return wordVoiceContext(readingPool()[readingIndex]);if(readingMode==='quiz'){const s=practiceSessions.reading;return s&&!s.done?wordVoiceContext(s.items[s.index],s.choice===null):{signature:'reading-quiz'}}}
- if(examSection==='spelling'){if(['cards','input'].includes(spellingMode))return wordVoiceContext(spellingPool()[spellingIndex]);if(spellingMode==='quiz'){const s=spellingQuiz;return s&&!s.done?wordVoiceContext(s.items[s.index]):{signature:'spelling-quiz'}}}
+ if(examSection==='reading'){if(['teach','cards'].includes(readingMode))return wordVoiceContext(readingPool()[readingIndex]);if(readingMode==='quiz'){const s=practiceSessions.reading;return s&&!s.done?wordVoiceContext(s.items[s.index],s.choice===null):{signature:'reading-quiz'}}}
+ if(examSection==='spelling'){if(['teach','cards','input'].includes(spellingMode))return wordVoiceContext(spellingPool()[spellingIndex]);if(spellingMode==='quiz'){const s=spellingQuiz;return s&&!s.done?wordVoiceContext(s.items[s.index]):{signature:'spelling-quiz'}}}
+ if(examSection==='authors')return authorVoice();
+ if(examSection==='culture')return cultureVoiceContext();
  if(examSection==='ci'){if(ciMode==='fill'){const q=ciFillQuestion();return q?{signature:q.id,label:'朗讀填空題',text:ciFillText(q),explain:(ciFillRevealed||ciFillResult?.checks)?ciFillText(q,true)+'。'+q.reason:''}:{signature:'ci-fill-empty'}}if(ciMode==='quiz'){const q=ciRound[ciPosition];return q&&!ciFinished?{signature:'ci-mc-'+ciPosition,label:'朗讀題目',text:q.prompt,explain:ciChoice!==null?q.answer+'。'+q.reason:''}:{signature:'ci-quiz'}}return{signature:'ci-notes',label:'朗讀九組重點',text:ciUnits.map(ciUnitVoice).join('。'),hint:'也可展開單一重點，按「朗讀這組」。'}}
  return{signature:'exam-'+examSection};
 }

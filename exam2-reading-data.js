@@ -9,8 +9,8 @@ const examReadings=[
   "answer": "dài",
   "meaning": "駘蕩：舒緩放鬆，也可形容春光舒展、使人陶醉。",
   "keyMeaning": "駘在此與「蕩」合成形容舒展、舒暢的詞。",
-  "tip": "此詞依照片讀 dài；不要套用「駑駘」的 tái。",
-  "source": "assets/exam2/reading-p13.png"
+  "tip": "此詞依新版 PDF讀 dài；不要套用「駑駘」的 tái。",
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-2",
@@ -21,8 +21,8 @@ const examReadings=[
   "answer": "dàng",
   "meaning": "檔案：分類保存的文件資料；文檔：文件或電子文件。",
   "keyMeaning": "檔指分類、分項保存的文件。",
-  "tip": "「檔」依照片讀第四聲；不要因右邊「當」而讀 dāng。",
-  "source": "assets/exam2/reading-p13.png"
+  "tip": "「檔」依新版 PDF讀第四聲；不要因右邊「當」而讀 dāng。",
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-3",
@@ -34,7 +34,7 @@ const examReadings=[
   "meaning": "洗滌：洗去污垢；滌蕩：清除、掃除，可用於思想或社會風氣。",
   "keyMeaning": "滌是洗淨、清除；水部提示與清洗有關。",
   "tip": "以字義記「清洗」，讀音另記 dí，不照「條」的音讀。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-4",
@@ -46,7 +46,7 @@ const examReadings=[
   "meaning": "官邸：官員的住所。",
   "keyMeaning": "邸指住所、府第。",
   "tip": "與「抵達」同讀 dǐ；「府邸」的邸不是姓氏的「氏」。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-5",
@@ -58,7 +58,7 @@ const examReadings=[
   "meaning": "取締：禁止或撤銷不合規定的活動、組織等。",
   "keyMeaning": "締有結合、締結義；在「取締」這個整體詞中，意思是禁止、撤銷。",
   "tip": "不能把「取締」硬拆成「取走＋結合」；糸部與結、聯繫的本義相關。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-6",
@@ -70,7 +70,7 @@ const examReadings=[
   "meaning": "沉澱：液體中的固體物質沉下，也指積累；澱粉：植物儲存養分的碳水化合物。",
   "keyMeaning": "澱與液體中沉積的物質有關。",
   "tip": "有水部，別與「綻放」的綻混；澱讀 diàn。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-7",
@@ -82,7 +82,7 @@ const examReadings=[
   "meaning": "玷污：弄髒或損害名聲；玷辱：使人蒙受羞辱。",
   "keyMeaning": "玷本指玉上的斑點，進而指污點。",
   "tip": "玉有污點 → 名聲受污；不是「沾水」的沾。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-8",
@@ -94,7 +94,7 @@ const examReadings=[
   "meaning": "恫嚇：用威脅使人害怕。",
   "keyMeaning": "恫在此與嚇合用，表示恐嚇。",
   "tip": "本表讀 dòng；「嚇」在恫嚇中讀 hè，不讀 xià。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-9",
@@ -106,7 +106,7 @@ const examReadings=[
   "meaning": "胴體：軀幹、身體；也可指去除頭、內臟等後的牲畜軀體。",
   "keyMeaning": "胴指軀幹；月旁在這裡與肉、身體有關。",
   "tip": "形旁提示身體，讀音記第四聲 dòng。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-10",
@@ -118,7 +118,7 @@ const examReadings=[
   "meaning": "尺牘：書信；文牘：公文、書面文件。",
   "keyMeaning": "牘原指書寫用的木片，後指文書。",
   "tip": "片旁提示古代書寫材料；與「讀」同音 dú。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-11",
@@ -130,7 +130,7 @@ const examReadings=[
   "meaning": "瀆職：不盡職責，造成工作或公共利益受損。",
   "keyMeaning": "瀆有輕慢、不敬之義；瀆職即怠慢職責。",
   "tip": "「讀書」用言旁；「瀆職」是怠慢職責，不能寫讀職。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-12",
@@ -142,7 +142,7 @@ const examReadings=[
   "meaning": "蠹蟲：蛀蝕器物的蟲，也比喻危害集體的人；戶樞不蠹：常轉動的門軸不被蟲蛀。",
   "keyMeaning": "蠹指蛀蟲，也作動詞「蛀蝕」。",
   "tip": "下面有蟲；讀 dù，不因字形複雜而猜其他音。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-13",
@@ -154,7 +154,7 @@ const examReadings=[
   "meaning": "訛傳：錯誤的傳聞；訛詐：以欺騙、威脅等手段索取財物。",
   "keyMeaning": "訛可指錯誤，也可指欺詐。",
   "tip": "言旁聯繫言語的錯誤或欺騙；兩詞都讀 é。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-14",
@@ -166,7 +166,7 @@ const examReadings=[
   "meaning": "蜚聲：名聲遠播；流言蜚語：沒有根據的傳言。",
   "keyMeaning": "蜚在這兩個詞中通「飛」，有傳播之意。",
   "tip": "想像名聲或謠言飛出去；讀 fēi。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-15",
@@ -178,7 +178,7 @@ const examReadings=[
   "meaning": "斐然成章：文采美盛，文章有可觀之處。",
   "keyMeaning": "斐：有文采的樣子。",
   "tip": "有「文」可聯想文采；斐讀第三聲 fěi。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-16",
@@ -189,8 +189,8 @@ const examReadings=[
   "answer": "fēn",
   "meaning": "氛圍、氣氛：環境中給人的情緒、情調或氣息。",
   "keyMeaning": "氛：氣、氣象。",
-  "tip": "依所提供講義讀第一聲 fēn；考試以課堂讀音為準。",
-  "source": "assets/exam2/reading-p13.png"
+  "tip": "依新版 PDF 講義讀第一聲 fēn；考試以課堂讀音為準。",
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-17",
@@ -202,7 +202,7 @@ const examReadings=[
   "meaning": "敷粉：把粉塗在臉上；入不敷出：收入不足以支付支出。",
   "keyMeaning": "敷在前詞是塗布，在後詞是足夠。",
   "tip": "同字同音而義不同；「不敷」記作「不夠」。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-18",
@@ -214,7 +214,7 @@ const examReadings=[
   "meaning": "物阜民豐：物產豐富，人民富足。",
   "keyMeaning": "阜：豐盛、眾多。",
   "tip": "阜修飾物產，不是「父親」的父；讀 fù。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-19",
@@ -226,7 +226,7 @@ const examReadings=[
   "meaning": "訃聞、訃告：告知某人去世的消息或文告。",
   "keyMeaning": "訃：報喪、告知死亡。",
   "tip": "言旁提示告知消息；與赴會的赴字形、意義不同。",
-  "source": "assets/exam2/reading-p13.png"
+  "source": "assets/exam2/reading-verified-p13.png"
  },
  {
   "id": "e2-read-20",
@@ -238,7 +238,7 @@ const examReadings=[
   "meaning": "用盡心思，竭盡智慮。",
   "keyMeaning": "殫：用盡；與竭意義相近。",
   "tip": "殫／竭都表示用盡；殫讀第一聲。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-21",
@@ -250,7 +250,7 @@ const examReadings=[
   "meaning": "用竹籃盛飯、壺盛湯漿，常指百姓慰勞、歡迎軍隊。",
   "keyMeaning": "簞：古代盛飯的圓竹器。",
   "tip": "竹字頭提示竹製器具；不是單純的「一簞一瓢」貧居意思。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-22",
@@ -262,7 +262,7 @@ const examReadings=[
   "meaning": "表揚好人好事，斥責壞人壞事。",
   "keyMeaning": "癉：憎恨、斥責；彰是表揚。",
   "tip": "善／惡相對，彰／癉亦相對；讀 dàn。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-23",
@@ -274,7 +274,7 @@ const examReadings=[
   "meaning": "螳螂舉臂阻擋車輪，比喻不自量力。",
   "keyMeaning": "當：抵擋、阻擋。",
   "tip": "抵擋 → dāng；對照安步當車的 dàng。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-24",
@@ -286,7 +286,7 @@ const examReadings=[
   "meaning": "從容步行，把走路當作坐車，形容安貧樂道或不急於趕路。",
   "keyMeaning": "當：當作、代替。",
   "tip": "當作車 → dàng；不是擋住車。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-25",
@@ -298,7 +298,7 @@ const examReadings=[
   "meaning": "瓜成熟後瓜蒂自然脫落，比喻條件成熟，事情自然成功。",
   "keyMeaning": "蒂：花果與枝莖相連的部分。",
   "tip": "草字頭聯繫植物；讀 dì，不讀 tí。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-26",
@@ -310,7 +310,7 @@ const examReadings=[
   "meaning": "醉得很厲害。",
   "keyMeaning": "酩酊：醉得神志不清的樣子。",
   "tip": "酉旁與酒有關；本詞酊讀第三聲 dǐng。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-27",
@@ -322,7 +322,7 @@ const examReadings=[
   "meaning": "耗盡兵力，濫用武力發動戰爭。",
   "keyMeaning": "黷：輕率、濫用；窮是用盡。",
   "tip": "用《兵車行》的開邊苦難聯想；黷讀 dú。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-28",
@@ -334,7 +334,7 @@ const examReadings=[
   "meaning": "常轉動的門軸不會被蟲蛀；比喻常運動的事物不易受侵蝕。",
   "keyMeaning": "蠹：蛀蝕；樞是門軸。",
   "tip": "由蛀蟲記蠹；常與「流水不腐」連用。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-29",
@@ -346,7 +346,7 @@ const examReadings=[
   "meaning": "言語、氣勢凌厲，讓人難以招架。",
   "keyMeaning": "咄咄：表示驚訝、呵叱等的聲音。",
   "tip": "口旁提示發聲；兩個咄都讀 duō。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-30",
@@ -358,7 +358,7 @@ const examReadings=[
   "meaning": "衡量自己的德行和能力，再決定行動。",
   "keyMeaning": "度：揣度、衡量；量也是估量。",
   "tip": "衡量、推測讀 duó；不是制度的 dù。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-31",
@@ -370,7 +370,7 @@ const examReadings=[
   "meaning": "仔細觀察時機，衡量形勢。",
   "keyMeaning": "度：分析、估量。",
   "tip": "審時／度勢兩個動賓結構；度讀 duó。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-32",
@@ -382,7 +382,7 @@ const examReadings=[
   "meaning": "按照情理推測、衡量。",
   "keyMeaning": "揆：推測；度：估量。",
   "tip": "揆情／度理意思相近；度讀 duó。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-33",
@@ -394,7 +394,7 @@ const examReadings=[
   "meaning": "說奉承話、曲意迎合別人。",
   "keyMeaning": "阿諛：迎合、奉承。",
   "tip": "阿在此讀 ē；不是阿姨、阿哥的 ā。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-34",
@@ -406,7 +406,7 @@ const examReadings=[
   "meaning": "使人憤怒得頭髮都豎起來，形容極度憤怒。",
   "keyMeaning": "髮：頭髮；指在此是豎起。",
   "tip": "發展的發讀 fā；頭髮的髮讀 fà，字形也要分清。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-35",
@@ -418,7 +418,7 @@ const examReadings=[
   "meaning": "迅速而徹底地醒悟、悔改。",
   "keyMeaning": "幡然：很快、明顯轉變的樣子。",
   "tip": "幡的右邊是番，讀 fān；不要誤讀 fán。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-36",
@@ -430,7 +430,7 @@ const examReadings=[
   "meaning": "形容情意深長、難以排遣，帶有感傷。",
   "keyMeaning": "悱：心中有感而難以說出；惻有悲傷之意。",
   "tip": "心旁聯繫情緒；悱讀 fěi，與斐同音而義不同。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-37",
@@ -442,7 +442,7 @@ const examReadings=[
   "meaning": "做事馬虎應付，只求勉強交代責任。",
   "keyMeaning": "敷衍在此指表面應付；塞責是應付責任。",
   "tip": "不是盡力完成；敷讀 fū。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-38",
@@ -454,7 +454,7 @@ const examReadings=[
   "meaning": "驚慌的心情剛剛安定下來。",
   "keyMeaning": "甫：剛剛、才。",
   "tip": "甫定＝剛定；甫不是父，讀第三聲。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  },
  {
   "id": "e2-read-39",
@@ -466,6 +466,6 @@ const examReadings=[
   "meaning": "物產豐盛，人民富足。",
   "keyMeaning": "阜：豐盛。",
   "tip": "物阜／民豐並列，兩邊都是主謂關係；與詞語表重複者保留。",
-  "source": "assets/exam2/reading-p16.png"
+  "source": "assets/exam2/reading-verified-p16.png"
  }
 ];

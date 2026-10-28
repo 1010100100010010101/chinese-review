@@ -1,7 +1,10 @@
-上傳 GitHub：
-1. 解壓縮 ZIP。
-2. 將解壓後的全部檔案與 assets 資料夾上傳到儲存庫根目錄，勿只上傳 ZIP 或 index.html。
-3. 確認儲存庫根目錄能直接看到 index.html。
-4. 若需網站網址，在儲存庫 Settings → Pages 選 Deploy from a branch，選 main 與 / (root)，儲存後等候部署。
+中文第二次測驗完整更新｜2026-10-28
 
-主頁為 index.html；其他 JS、CSS、圖片與講義都是網站所需檔案。
+1. 解壓縮 ZIP，打開含 index.html 的資料夾。
+2. 將裡面的所有檔案及 assets 資料夾上傳至原 GitHub 儲存庫最上層，取代同名檔案。
+3. 不要只上傳 ZIP，也不要多包一層資料夾；最上層必須直接看得到 index.html。
+4. 保持 main 分支，GitHub Pages 使用 main / (root)。
+5. 更新完成後重新整理網站；若仍顯示舊版，可按 Ctrl+F5。
+
+第二次測驗預設顯示；第一次測驗放在側欄「歷次測驗」。
+新增35位作家與176題填空；39組讀音已按新PDF核對。詳見 REVIEW-SCOPE.txt。
