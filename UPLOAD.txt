@@ -1,10 +1,1 @@
-中文第二次測驗完整更新｜2026-10-28
-
-1. 解壓縮 ZIP，打開含 index.html 的資料夾。
-2. 將裡面的所有檔案及 assets 資料夾上傳至原 GitHub 儲存庫最上層，取代同名檔案。
-3. 不要只上傳 ZIP，也不要多包一層資料夾；最上層必須直接看得到 index.html。
-4. 保持 main 分支，GitHub Pages 使用 main / (root)。
-5. 更新完成後重新整理網站；若仍顯示舊版，可按 Ctrl+F5。
-
-第二次測驗預設顯示；第一次測驗放在側欄「歷次測驗」。
-新增35位作家與176題填空；39組讀音已按新PDF核對。詳見 REVIEW-SCOPE.txt。
+解壓後將所有根目錄檔案及assets資料夾上傳到chinese-review儲存庫根目錄。main不用改。請保留資料夾結構；同名檔案取代即可。分兩批上傳可避免GitHub網頁一次檔案數量上限。網站的原始碼是index.html旁的全部JS/CSS與assets，不能只上傳index.html。
