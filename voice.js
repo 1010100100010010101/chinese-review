@@ -36,13 +36,14 @@ function speakVoice(text,label='朗讀'){
 function ciUnitVoice(u){return u.title+'。'+u.summary+'。'+u.rows.map(r=>r.join('，')).join('。')+'。記憶提示。'+u.memory+'。'+u.note}
 function wordVoiceContext(r,locked=false){if(r&&!r.meaning&&wordExplanations[r.word]){const e=wordExplanations[r.word];r={...r,meaning:e.meaning,keyMeaning:e.focus,tip:e.tip}}return{signature:r?.id||r?.word||'word',label:'朗讀詞語',text:locked?'':r?.word||'',explain:!locked&&r?.meaning?[r.meaning,r.keyMeaning,r.tip].join('。'):'',hint:locked?'讀音選擇題作答後才開放聽讀。':''}}
 function voiceContext(){
+ if(view==='exam2026')return finalVoiceContext();
  if(view==='study'){const r=data.filter(d=>d.cat===cat)[pos];return wordVoiceContext(r)}
  if(view==='quiz'){const r=quiz[qi];return r&&!finished?wordVoiceContext(r,r.cat<2&&chosen===null):{signature:'quiz-end'}}
  if(view==='essays'){const e=lesson(),s=e.segments[segmentIndex];return{signature:'essay-'+e.id+'-'+essayTab+'-'+segmentIndex,label:'朗讀這一句',text:s[0],full:e.recite,fullLabel:'連讀背默範圍',explain:s[2]+'。'+s[3]}}
  if(view!=='exam2')return{signature:view};
  if(examSection==='essays'){const e=examLesson(),s=e.segments[examSegment];return{signature:'exam-'+e.id+'-'+examTab+'-'+examSegment,label:'朗讀這一組',text:s[0],full:e.recite,fullLabel:'連讀背默範圍',explain:s[2]+'。'+s[3]}}
- if(examSection==='reading'){if(['teach','cards'].includes(readingMode))return wordVoiceContext(readingPool()[readingIndex]);if(readingMode==='quiz'){const s=practiceSessions.reading;return s&&!s.done?wordVoiceContext(s.items[s.index],s.choice===null):{signature:'reading-quiz'}}}
- if(examSection==='spelling'){if(['teach','cards','input'].includes(spellingMode))return wordVoiceContext(spellingPool()[spellingIndex]);if(spellingMode==='quiz'){const s=spellingQuiz;return s&&!s.done?wordVoiceContext(s.items[s.index]):{signature:'spelling-quiz'}}}
+ if(examSection==='reading'){if(readingMode==='full')return wordFullVoiceContext('reading');if(['teach','cards'].includes(readingMode))return wordVoiceContext(readingPool()[readingIndex]);if(readingMode==='quiz'){const s=practiceSessions.reading;return s&&!s.done?wordVoiceContext(s.items[s.index],s.choice===null):{signature:'reading-quiz'}}}
+ if(examSection==='spelling'){if(spellingMode==='full')return wordFullVoiceContext('spelling');if(['teach','cards','input'].includes(spellingMode))return wordVoiceContext(spellingPool()[spellingIndex]);if(spellingMode==='quiz'){const s=spellingQuiz;return s&&!s.done?wordVoiceContext(s.items[s.index]):{signature:'spelling-quiz'}}}
  if(examSection==='authors')return worksheetVoiceContext('authors');
  if(examSection==='culture')return cultureVoiceContext();
  if(examSection==='ci'){if(ciMode==='fill')return worksheetVoiceContext('ci');if(ciMode==='quiz'){const q=ciRound[ciPosition];return q&&!ciFinished?{signature:'ci-mc-'+ciPosition,label:'朗讀題目',text:q.prompt,explain:ciChoice!==null?q.answer+'。'+q.reason:''}:{signature:'ci-quiz'}}return{signature:'ci-notes',label:'朗讀九組重點',text:ciUnits.map(ciUnitVoice).join('。'),hint:'也可展開單一重點，按「朗讀這組」。'}}
